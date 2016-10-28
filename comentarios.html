@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Comentarios</title>
+</head>
+
+<body>
+
+<h1>
+Andrés Camilo Tobar Gamba
+</h1>
+
+<p>
+<img src="img/Logo.jpg" alt="Logo Prueba" usemap="#mapa" />
+<map name="mapa">
+<area shape="rect" coords="1,1,250,250" href="http://pruebastobar.co.nf" alt="Enlace a página principal" />
+</map>
+</p>
+
+<h2>
+Comentarios
+</h2>
+
+El siguiente formulario me ayudara a mejorar el sitio Web.
+
+<p>
+<form action="" method="get" enctype="text/plain">
+<fieldset>
+<legend>Datos personales</legend>
+<label for="name">Nombre</label>
+<input type="text" name="name" id="name" maxlength="50" placeholder="Juán López" autofocus required />
+<p>
+<label for="email">Correo electrónico</label>
+<input type="email" name="email" id="email" placeholder="juan@miweb.com" autocomplete="on" required />
+</p>
+</fieldset>
+<p>
+<fieldset>
+<legend>Nivel de estudios</legend>
+<input type="radio" name="radio" id="radio1" value="1"/><label for="radio1">Secundarios</label>
+<input type="radio" name="radio" id="radio2" value="2"/><label for="radio2">Universitarios</label>
+<input type="radio" name="radio" id="radio3" value="3"/><label for="radio3">Post-Universitarios</label>
+</fieldset>
+</p>
+<p>
+<label for="text">Comentarios</label>
+<p>
+<textarea name="text" id="text" cols="70" rows="5">
+Comentarios aquí
+</textarea>
+</p>
+</p>
+<p>
+<label for="number">Calificación del sitio Web</label>
+<input type="number" name="number" id="number" min="0" max="5" required /> (Del 1 al 5)
+</p>
+
+<input type="submit" name="submit" id="submit" value="Enviar"/>
+
+</form>
+</p>
+
+</body>
+</html>
